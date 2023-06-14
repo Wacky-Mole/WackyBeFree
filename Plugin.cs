@@ -64,8 +64,12 @@ namespace WackyBeFree
                 if (__instance == null || Player.m_localPlayer == null)
                     return true;
 
-                __result = true;
-                return false;   
+                if (modenabled.Value)
+                {
+                    __result = true;
+                    return false;
+                }
+                return true;
 
             }
         }

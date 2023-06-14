@@ -17,7 +17,7 @@ namespace WackyBeFree
     {
         internal const string ModName = "WackyBeFree";
         internal const string ModVersion = "1.0.0";
-        internal const string Author = "Wackymole";
+        internal const string Author = "WackyMole";
         private const string ModGUID = Author + "." + ModName;
         private static string ConfigFileName = ModGUID + ".cfg";
         private static string ConfigFileFullPath = Paths.ConfigPath + Path.DirectorySeparatorChar + ConfigFileName;
@@ -70,9 +70,9 @@ namespace WackyBeFree
             }
         }
 
-                private void OnDestroy()
+         private void OnDestroy()
         {
-            Config.Save();
+         Config.Save();
         }
 
         private void SetupWatcher()

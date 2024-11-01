@@ -103,13 +103,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LocalizationManager.cs" />
-    <Compile Include="PieceManager\MaterialReplacer.cs" />
-    <Compile Include="PieceManager\PieceManager.cs" />
-    <Compile Include="PieceManager\SnapPointMaker.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VersionHandshake.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -118,18 +113,13 @@
     <Content Include=".gitignore" />
     <Content Include="environment.props" />
     <Content Include="ILRepack.targets" />
-    <Content Include="Libs\PieceManager.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Libs\ServerSync.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="LICENSE.md" />
     <Content Include="README.md" />
     <Content Include="Thunderstore\CHANGELOG.md" />
-    <Content Include="Thunderstore\icon.png" />
     <Content Include="Thunderstore\manifest.json" />
-    <EmbeddedResource Include="translations\English.yml" />
     <Content Include="UpdateManifest.ps1" />
   </ItemGroup>
   <ItemGroup>

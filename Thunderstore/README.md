@@ -12,3 +12,5 @@ Support me!
 Has Server Sync on it, feel free to bash that on/off config.
 
 Cheers!
+
+Use the Built in Vanilla options instead of this mod, but the mod stills works.
